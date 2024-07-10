@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Moita Roatt - Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #eee;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        .header {
+            background-color: #333;
+            padding: 1rem;
+        }
+        .header h1 {
+            color: #fff;
+        }
+        .content {
+            margin: 2rem;
+        }
+        .projects {
+            margin-top: 2rem;
+        }
+        .footer {
+            background-color: #333;
+            padding: 1rem;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            color: #fff;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="header">
+                <h1>Henrique Moita Roatt</h1>
+                <p>Site Pessoal</p>
+            </div>
+            <div class="content">
+                <section>
+                    <h2>Sobre Mim</h2>
+                    <p>Desenvolvedor especializado em IBM Business Automation Workflow (BAW), com experiência em BPM, integração de sistemas e desenvolvimento em Java e Node.js.</p>
+                </section>
+                <section class="projects">
+                    <h2>Projetos Destacados</h2>
+                    <ul>
+                        <li>Desenvolvimento de solução Java para CSU Digital (Jul 2023 – Dez 2023)</li>
+                        <li>Liderança em projetos para Copel e Multiplan na Certsys (Jan 2023 – Mar 2023)</li>
+                        <li>Automação de fluxos de trabalho financeiros na IBM (Jun 2022 – Dez 2022)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Habilidades Profissionais</h2>
+                    <ul>
+                        <li>Java, JavaScript, Node.js</li>
+                        <li>IBM BAW, BPMN, BPEL</li>
+                        <li>Integração de sistemas: APIs REST, SOAP, WSDL</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="footer">
+                <p>&copy; 2024 Henrique Moita Roatt. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script>
+        new Vue({
+            el: '#app'
+        });
+    </script>
+</body>
+</html>
